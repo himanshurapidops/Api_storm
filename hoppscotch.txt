@@ -1,0 +1,75 @@
+[
+  {
+    "v": 6,
+    "name": "Api_storm",
+    "folders": [],
+    "requests": [
+      {
+        "v": "11",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "body": null,
+          "contentType": null
+        },
+        "name": "GET ALL DATA",
+        "method": "GET",
+        "params": [],
+        "headers": [],
+        "endpoint": "http://localhost:3000/data/all",
+        "responses": {},
+        "testScript": "",
+        "preRequestScript": "",
+        "requestVariables": []
+      },
+      {
+        "v": "11",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "body": null,
+          "contentType": null
+        },
+        "name": "GET FIXED DATA",
+        "method": "GET",
+        "params": [],
+        "headers": [],
+        "endpoint": "http://localhost:3000/data/fixed",
+        "responses": {},
+        "testScript": "",
+        "preRequestScript": "",
+        "requestVariables": []
+      },
+      {
+        "v": "11",
+        "auth": {
+          "authType": "inherit",
+          "authActive": true
+        },
+        "body": {
+          "body": null,
+          "contentType": null
+        },
+        "name": "GET DATA BY ID",
+        "method": "GET",
+        "params": [],
+        "headers": [],
+        "endpoint": "http://localhost:3000/data/_id/:id",
+        "responses": {},
+        "testScript": "",
+        "preRequestScript": "",
+        "requestVariables": []
+      }
+    ],
+    "auth": {
+      "authType": "inherit",
+      "authActive": true
+    },
+    "headers": [],
+    "_ref_id": "coll_m9hf6ebv_fa8231aa-6e24-4eba-97db-d64818aaa1a2"
+  }
+]
